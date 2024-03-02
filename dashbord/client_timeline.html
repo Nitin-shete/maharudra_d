@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<form class="dropzone dz-clickable" id="singleFileUpload" action="/upload.php">
+    <div class="m-0 dz-message needsclick"><i class="icon-cloud-up"></i>
+      <h6 class="mb-0">Drop files here or click to upload.</h6>
+    </div>
+  </form>
+
+  <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -116,11 +122,59 @@
                           </ul>
                         </div>
                       </div>
+                      <div class="col mega-box">
+                        <div class="link-section">
+                          <div>
+                            <h6>Email templates</h6>
+                          </div>
+                          <ul>
+                            <li class="ps-0"><a href="basic-template.html">Basic Email</a></li>
+                            <li class="ps-0"><a href="email-header.html">Basic With Header</a></li>
+                            <li class="ps-0"><a href="template-email.html">Ecomerce Template</a></li>
+                            <li class="ps-0"><a href="template-email-2.html">Email Template 2</a></li>
+                            <li class="ps-0"><a href="ecommerce-templates.html">Ecommerce Email</a></li>
+                            <li class="ps-0"><a href="email-order-success.html">Order Success</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col mega-box">
+                        <div class="link-section">
+                          <div>
+                            <h6>Coming Soon</h6>
+                          </div>
+                          <ul class="svg-icon">
+                            <li><a href="comingsoon.html"> <i data-feather="file"> </i>Coming-soon</a></li>
+                            <li><a href="comingsoon-bg-video.html"> <i data-feather="film"> </i>Coming-video</a></li>
+                            <li><a href="comingsoon-bg-img.html"><i data-feather="image"> </i>Coming-Image</a></li>
+                          </ul>
+                          <div>
+                            <h6>Other Soon</h6>
+                          </div>
+                          <ul class="svg-icon">
+                            <li><a class="txt-primary" href="landing-page.html"> <i data-feather="cast"></i>Landing Page</a></li>
+                            <li><a class="txt-secondary" href="sample-page.html"> <i data-feather="airplay"></i>Sample Page</a></li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </li>
-            
+              <li class="level-menu outside"><a class="nav-link" href="#!"><i data-feather="inbox"></i><span>Level Menu</span></a>
+                <ul class="header-level-menu menu-to-be-close">
+                  <li><a href="file-manager.html" data-original-title="" title="">                               <i data-feather="git-pull-request"></i><span>File manager    </span></a></li>
+                  <li><a href="#!" data-original-title="" title="">                               <i data-feather="users"></i><span>Users</span></a>
+                    <ul class="header-level-sub-menu">
+                      <li><a href="file-manager.html" data-original-title="" title="">                               <i data-feather="user"></i><span>User Profile</span></a></li>
+                      <li><a href="file-manager.html" data-original-title="" title="">                               <i data-feather="user-minus"></i><span>User Edit</span></a></li>
+                      <li><a href="file-manager.html" data-original-title="" title="">                               <i data-feather="user-check"></i><span>Users Cards</span></a></li>
+                    </ul>
+                  </li>
+                  <li><a href="kanban.html" data-original-title="" title="">                               <i data-feather="airplay"></i><span>Kanban Board</span></a></li>
+                  <li><a href="bookmark.html" data-original-title="" title="">                               <i data-feather="heart"></i><span>Bookmark</span></a></li>
+                  <li><a href="social-app.html" data-original-title="" title="">                               <i data-feather="zap"></i><span>Social App                     </span></a></li>
+                </ul>
+              </li>
             </ul>
           </div>
           <div class="nav-right col-8 pull-right right-header p-0">
@@ -130,7 +184,15 @@
                   <div class="current_lang">
                     <div class="lang"><i class="flag-icon flag-icon-us"></i><span class="lang-txt">EN                               </span></div>
                   </div>
-                 
+                  <div class="more_lang">
+                    <div class="lang selected" data-value="en"><i class="flag-icon flag-icon-us"></i><span class="lang-txt">English<span> (US)</span></span></div>
+                    <div class="lang" data-value="de"><i class="flag-icon flag-icon-de"></i><span class="lang-txt">Deutsch</span></div>
+                    <div class="lang" data-value="es"><i class="flag-icon flag-icon-es"></i><span class="lang-txt">Español</span></div>
+                    <div class="lang" data-value="fr"><i class="flag-icon flag-icon-fr"></i><span class="lang-txt">Français</span></div>
+                    <div class="lang" data-value="pt"><i class="flag-icon flag-icon-pt"></i><span class="lang-txt">Português<span> (BR)</span></span></div>
+                    <div class="lang" data-value="cn"><i class="flag-icon flag-icon-cn"></i><span class="lang-txt">简体中文</span></div>
+                    <div class="lang" data-value="ae"><i class="flag-icon flag-icon-ae"></i><span class="lang-txt">لعربية <span> (ae)</span></span></div>
+                  </div>
                 </div>
               </li>
               <li>                         <span class="header-search"><i data-feather="search"></i></span></li>
@@ -301,8 +363,7 @@
             <div class="ProfileCard u-cf">                        
             <div class="ProfileCard-avatar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-airplay m-0"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path><polygon points="12 15 17 21 7 21 12 15"></polygon></svg></div>
             <div class="ProfileCard-details">
-            <!-- <div class="ProfileCard-realName">{{name}}</div> -->
-            <div class="ProfileCard-realName"></div>
+            <div class="ProfileCard-realName">{{name}}</div>
             </div>
             </div>
           </script>
@@ -339,15 +400,15 @@
                       <li><a class="lan-4" href="index.html">Default</a></li>
                     </ul>
                   </li>
-                  <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#"><i data-feather="mail"></i><span>Slider </span></a>
+                  <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#"><i data-feather="airplay"></i><span class="lan-6">Slider</span></a>
                     <ul class="sidebar-submenu">
-                      <li><a href="slider_list.html">Slider List</a></li>
-                      <li><a href="slider_add.html">Add Slider</a></li>
+                      <li><a href="general-widget.html"> Slider List </a></li>
+                      <li><a href="chart-widget.html">Add Slider </a></li>
                     </ul>
                   </li>
                  
                  
-                  <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#"><i data-feather="mail"></i><span>Client</span></a>
+                  <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#"><i data-feather="mail"></i><span>Email</span></a>
                     <ul class="sidebar-submenu">
                       <li><a href="email-application.html">Client List</a></li>
                       <li><a href="email-compose.html">All</a></li>
@@ -390,152 +451,72 @@
             </div>
           </div>
           <!-- Container-fluid starts-->
-          <div class="container-fluid">
-            <div class="row second-chart-list third-news-update">
+          
 
-              <div class="col-xl-12 col-lg-12 xl-80 calendar-sec box-col-6  appointment">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12">
                 <div class="card">
-                  <div class="card-header card-no-border">
-                    <div class="header-top">
-                      <h5 class="m-0">appointment</h5>
-                      <div class="card-header-right-icon">
-                        <div class="dropdown">
-                          <button class="btn dropdown-toggle" id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">Today</button>
-                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Today</a><a class="dropdown-item" href="#">Tomorrow</a><a class="dropdown-item" href="#">Yesterday</a></div>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="card-header">
+                    <h5>Example</h5>
                   </div>
-                  <div class="card-body pt-0">
-                    <div class="appointment-table table-responsive">
-                      <table class="table table-bordernone">
-                        <tbody>
-                          <tr>
-                            <td><img class="img-fluid img-40 rounded-circle mb-3" src="../assets/images/appointment/app-ent.jpg" alt="Image description">
-                              <div class="status-circle bg-primary"></div>
-                            </td>
-                            <td class="img-content-box"><span class="d-block">Venter Loren</span><span class="font-roboto">Now</span></td>
-                            <td>
-                              <p class="m-0 font-primary">28 Sept</p>
-                            </td>
-                            <td class="text-end">
-                              <div class="button btn btn-primary">Done<i class="fa fa-check-circle ms-2"></i></div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td><img class="img-fluid img-40 rounded-circle" src="../assets/images/appointment/app-ent.jpg" alt="Image description">
-                              <div class="status-circle bg-primary"></div>
-                            </td>
-                            <td class="img-content-box"><span class="d-block">John Loren</span><span class="font-roboto">11:00</span></td>
-                            <td>
-                              <p class="m-0 font-primary">22 Sept</p>
-                            </td>
-                            <td class="text-end">
-                              <div class="button btn btn-danger">Pending<i class="fa fa-clock-o ms-2"></i></div>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-9 xl-100 chart_data_left box-col-12">
-                <div class="card">
-                  <div class="card-body p-0">
-                    <div class="row m-0 chart-main">
-                      <div class="col-xl-3 col-md-6 col-sm-6 p-0 box-col-6">
-                        <div class="media align-items-center">
-                          <div class="hospital-small-chart">
-                            <div class="small-bar">
-                              <div class="small-chart flot-chart-container"></div>
-                            </div>
-                          </div>
-                          <div class="media-body">
-                            <div class="right-chart-content">
-                              <h4>1001</h4><span>Purchase </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xl-3 col-md-6 col-sm-6 p-0 box-col-6">
-                        <div class="media align-items-center">
-                          <div class="hospital-small-chart">
-                            <div class="small-bar">
-                              <div class="small-chart1 flot-chart-container"></div>
-                            </div>
-                          </div>
-                          <div class="media-body">
-                            <div class="right-chart-content">
-                              <h4>1005</h4><span>Sales</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xl-3 col-md-6 col-sm-6 p-0 box-col-6">
-                        <div class="media align-items-center">
-                          <div class="hospital-small-chart">
-                            <div class="small-bar">
-                              <div class="small-chart2 flot-chart-container"></div>
-                            </div>
-                          </div>
-                          <div class="media-body">
-                            <div class="right-chart-content">
-                              <h4>100</h4><span>Sales return</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xl-3 col-md-6 col-sm-6 p-0 box-col-6">
-                        <div class="media border-none align-items-center">
-                          <div class="hospital-small-chart">
-                            <div class="small-bar">
-                              <div class="small-chart3 flot-chart-container"></div>
-                            </div>
-                          </div>
-                          <div class="media-body">
-                            <div class="right-chart-content">
-                              <h4>101</h4><span>Purchase ret</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 xl-50 chart_data_right box-col-12">
-                <div class="card">
                   <div class="card-body">
-                    <div class="media align-items-center">
-                      <div class="media-body right-chart-content">
-                        <h4>$95,900<span class="new-box">Hot</span></h4><span>Purchase Order Value</span>
+                    <!-- cd-timeline Start-->
+                    <section class="cd-container" id="cd-timeline">
+                      <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture bg-primary"><i class="icon-pencil-alt"></i></div>
+                        <div class="cd-timeline-content">
+                          <h4>Title of section<span> 1</span></h4>
+                          <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p><span class="cd-date">Jan <span class="counter"> 14</span></span>
+                        </div>
                       </div>
-                      <div class="knob-block text-center">
-                        <input class="knob1" data-width="10" data-height="70" data-thickness=".3" data-angleoffset="0" data-linecap="round" data-fgcolor="#7366ff" data-bgcolor="#eef5fb" value="60">
+                      <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie bg-secondary bounce-in"><i class="icon-video-camera"></i></div>
+                        <div class="cd-timeline-content bounce-in">
+                          <h4>Title of section<span> 2</span></h4>
+                          <div class="ratio ratio-21x9 m-t-20">
+                            <iframe src="https://www.youtube.com/embed/wpmHZspl4EM" allowfullscreen=""></iframe>
+                          </div><span class="cd-date">Jan <span class="counter">18</span></span>
+                        </div>
                       </div>
-                    </div>
+                      <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture bg-success bounce-in"><i class="icon-image"></i></div>
+                        <div class="cd-timeline-content bounce-in">
+                          <h4>Title of section<span> 3</span></h4><img class="img-fluid p-t-20" src="../assets/images/banner/1.jpg" alt=""><span class="cd-date">Jan <span class="counter">24</span></span>
+                        </div>
+                      </div>
+                      <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-location bg-info bounce-in"><i class="icon-pulse"></i></div>
+                        <div class="cd-timeline-content bounce-in">
+                          <h4>Title of section<span> 4</span></h4>
+                          <audio class="m-t-20" controls="">
+                            <source src="../assets/audio/horse.ogg" type="audio/ogg">                                                Your browser does not support the audio element.
+                          </audio><span class="cd-date">Feb <span class="counter">14</span></span>
+                        </div>
+                      </div>
+                      <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-location bg-warning bounce-in"><i class="icon-image"></i></div>
+                        <div class="cd-timeline-content bounce-in">
+                          <h4>Title of section<span> 5</span></h4><img class="img-fluid p-t-20" src="../assets/images/banner/3.jpg" alt=""><span class="cd-date">Feb <span class="counter">18</span></span>
+                        </div>
+                      </div>
+                      <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie bg-danger bounce-in"><i class="icon-pencil-alt"></i></div>
+                        <div class="cd-timeline-content bounce-in">
+                          <h4>Final Section</h4>
+                          <p class="m-0">This is the content of the last section</p><span class="cd-date">Feb <span class="counter">26</span></span>
+                        </div>
+                      </div>
+                    </section>
+                    <!-- cd-timeline Ends-->
+                    <!-- Container-fluid ends                    -->
                   </div>
                 </div>
               </div>
-              <div class="col-xl-3 xl-50 chart_data_right second d-none"> 
-                <div class="card">
-                  <div class="card-body">
-                    <div class="media align-items-center">
-                      <div class="media-body right-chart-content"> 
-                        <h4>$95,000<span class="new-box">New</span></h4><span>Product Order Value</span>
-                      </div>
-                      <div class="knob-block text-center">
-                        <input class="knob1" data-width="50" data-height="70" data-thickness=".3" data-fgcolor="#7366ff" data-linecap="round" data-angleoffset="0" value="60">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-                
-              
             </div>
           </div>
+
+
           <!-- Container-fluid Ends-->
         </div>
         <!-- footer start-->
@@ -588,4 +569,4 @@
     <!-- login js-->
     <!-- Plugin used-->
   </body>
-</html>
+</html> 
